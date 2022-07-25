@@ -1,0 +1,88 @@
+{
+  "mappings": {
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/ItemStackMixin": {
+      "getMaxStackSize": "Lnet/minecraft/world/item/ItemStack;m_41741_()I",
+      "save": "Lnet/minecraft/world/item/ItemStack;m_41739_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+      "Lnet/minecraft/nbt/CompoundTag;putByte(Ljava/lang/String;B)V": "Lnet/minecraft/nbt/CompoundTag;m_128344_(Ljava/lang/String;B)V",
+      "Lnet/minecraft/world/item/ItemStack;count:I": "Lnet/minecraft/world/item/ItemStack;f_41587_:I",
+      "<init>(Lnet/minecraft/nbt/CompoundTag;)V": "Lnet/minecraft/world/item/ItemStack;<init>(Lnet/minecraft/nbt/CompoundTag;)V"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/stacksize/SlotItemHandlerMixin": {
+      "getMaxStackSize()I": "Lnet/minecraftforge/items/SlotItemHandler;m_6641_()I"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/stacksize/ServerGamePacketListenerImplMixin": {
+      "handleSetCreativeModeSlot": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_5964_(Lnet/minecraft/network/protocol/game/ServerboundSetCreativeModeSlotPacket;)V"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/ContainersMixin": {
+      "dropItemStack": "Lnet/minecraft/world/Containers;m_18992_(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/client/ItemRendererMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;translate(DDD)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85837_(DDD)V",
+      "Lnet/minecraft/client/gui/Font;drawInBatch(Ljava/lang/String;FFIZLcom/mojang/math/Matrix4f;Lnet/minecraft/client/renderer/MultiBufferSource;ZII)I": "Lnet/minecraft/client/gui/Font;m_92811_(Ljava/lang/String;FFIZLcom/mojang/math/Matrix4f;Lnet/minecraft/client/renderer/MultiBufferSource;ZII)I",
+      "renderGuiItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115174_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/stacksize/SlotMixin": {
+      "getMaxStackSize()I": "Lnet/minecraft/world/inventory/Slot;m_6641_()I"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/FriendlyByteBufMixin": {
+      "readItem": "Lnet/minecraft/network/FriendlyByteBuf;m_130267_()Lnet/minecraft/world/item/ItemStack;"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/ItemStackAccessor": {
+      "count": "f_41587_:I"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/ItemMixin": {
+      "getMaxStackSize": "Lnet/minecraft/world/item/Item;m_41459_()I"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/AbstractContainerMenuMixin": {
+      "Lnet/minecraft/world/inventory/Slot;tryRemove(IILnet/minecraft/world/entity/player/Player;)Ljava/util/Optional;": "Lnet/minecraft/world/inventory/Slot;m_150641_(IILnet/minecraft/world/entity/player/Player;)Ljava/util/Optional;",
+      "doClick": "Lnet/minecraft/world/inventory/AbstractContainerMenu;m_150430_(IILnet/minecraft/world/inventory/ClickType;Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "me/ryutheghost/eldencraftmod/eldencraft/mixin/GiveCommandMixin": {
+      "giveItem": "Lnet/minecraft/server/commands/GiveCommand;m_137778_(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/commands/arguments/item/ItemInput;Ljava/util/Collection;I)I"
+    }
+  },
+  "data": {
+    "searge": {
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/ItemStackMixin": {
+        "getMaxStackSize": "Lnet/minecraft/world/item/ItemStack;m_41741_()I",
+        "save": "Lnet/minecraft/world/item/ItemStack;m_41739_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+        "Lnet/minecraft/nbt/CompoundTag;putByte(Ljava/lang/String;B)V": "Lnet/minecraft/nbt/CompoundTag;m_128344_(Ljava/lang/String;B)V",
+        "Lnet/minecraft/world/item/ItemStack;count:I": "Lnet/minecraft/world/item/ItemStack;f_41587_:I",
+        "<init>(Lnet/minecraft/nbt/CompoundTag;)V": "Lnet/minecraft/world/item/ItemStack;<init>(Lnet/minecraft/nbt/CompoundTag;)V"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/stacksize/SlotItemHandlerMixin": {
+        "getMaxStackSize()I": "Lnet/minecraftforge/items/SlotItemHandler;m_6641_()I"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/stacksize/ServerGamePacketListenerImplMixin": {
+        "handleSetCreativeModeSlot": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_5964_(Lnet/minecraft/network/protocol/game/ServerboundSetCreativeModeSlotPacket;)V"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/ContainersMixin": {
+        "dropItemStack": "Lnet/minecraft/world/Containers;m_18992_(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/client/ItemRendererMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;translate(DDD)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85837_(DDD)V",
+        "Lnet/minecraft/client/gui/Font;drawInBatch(Ljava/lang/String;FFIZLcom/mojang/math/Matrix4f;Lnet/minecraft/client/renderer/MultiBufferSource;ZII)I": "Lnet/minecraft/client/gui/Font;m_92811_(Ljava/lang/String;FFIZLcom/mojang/math/Matrix4f;Lnet/minecraft/client/renderer/MultiBufferSource;ZII)I",
+        "renderGuiItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115174_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/stacksize/SlotMixin": {
+        "getMaxStackSize()I": "Lnet/minecraft/world/inventory/Slot;m_6641_()I"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/FriendlyByteBufMixin": {
+        "readItem": "Lnet/minecraft/network/FriendlyByteBuf;m_130267_()Lnet/minecraft/world/item/ItemStack;"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/ItemStackAccessor": {
+        "count": "f_41587_:I"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/ItemMixin": {
+        "getMaxStackSize": "Lnet/minecraft/world/item/Item;m_41459_()I"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/AbstractContainerMenuMixin": {
+        "Lnet/minecraft/world/inventory/Slot;tryRemove(IILnet/minecraft/world/entity/player/Player;)Ljava/util/Optional;": "Lnet/minecraft/world/inventory/Slot;m_150641_(IILnet/minecraft/world/entity/player/Player;)Ljava/util/Optional;",
+        "doClick": "Lnet/minecraft/world/inventory/AbstractContainerMenu;m_150430_(IILnet/minecraft/world/inventory/ClickType;Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "me/ryutheghost/eldencraftmod/eldencraft/mixin/GiveCommandMixin": {
+        "giveItem": "Lnet/minecraft/server/commands/GiveCommand;m_137778_(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/commands/arguments/item/ItemInput;Ljava/util/Collection;I)I"
+      }
+    }
+  }
+}

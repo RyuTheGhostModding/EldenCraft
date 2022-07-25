@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ryutheghost.eldencraftmod.eldencraft.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "eldencraft.refmap.json",
+  "mixins": [
+    "AbstractContainerMenuMixin",
+    "ContainersMixin",
+    "FriendlyByteBufMixin",
+    "GiveCommandMixin",
+    "ItemMixin",
+    "ItemStackAccessor",
+    "ItemStackMixin",
+    "stacksize.ContainerMixin",
+    "stacksize.InvWrapperMixin",
+    "stacksize.ItemStackHandlerMixin",
+    "stacksize.ServerGamePacketListenerImplMixin",
+    "stacksize.SlotItemHandlerMixin",
+    "stacksize.SlotMixin"
+  ],
+  "client": [
+    "client.ItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

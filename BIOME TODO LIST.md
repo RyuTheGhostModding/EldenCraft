@@ -1,0 +1,4 @@
+1. Spooky Dark Forest - Dark Castles Common, A Boss, A Dark Mage, Dark Disciples Common Mob, Ghosts, Bats, Vampires, Werewolves, Lesser Vampires And Werewolves, Add Vampire Species Weaknesses - Garlic Substance, Sunlight, Crossing Water, Crucifix, If Vampire Level 10 Per Stage Lose A Weakness.
+2. Sacred Forest - All Friendly Mobs, No Bosses, No Loot, Only Trades, 100% Peaceful.
+3. Flaming Mountains - Fire Elementals, Fire Mobs, Lesser Elementals, Fire God Boss With Fire Bull Mount.
+4. Barren Desert - Food Is Scarce Same Goes For Plants, Animals, And Loot. Beginner Area Filled With Bandits And Lesser Basilisks. Bosses - Greater Basilisk (Day), Bandit Leader (Night). Add 1 Pet Soul Boundable Which Is Teen Lesser Basilisk Dropped From Greater Basilisk Boss, Add The Soul Binder Item As A Drop From Bandit Leader Boss.

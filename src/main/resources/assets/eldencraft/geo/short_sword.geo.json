@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.short_sword",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "short_sword",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "handle",
+					"parent": "short_sword",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3, 0, -1],
+							"size": [6, 9, 1],
+							"uv": {
+								"north": {"uv": [0, 18], "uv_size": [6, 9]},
+								"east": {"uv": [22, 0], "uv_size": [1, 9]},
+								"south": {"uv": [7, 18], "uv_size": [6, 9]},
+								"west": {"uv": [18, 22], "uv_size": [1, 9]},
+								"up": {"uv": [22, 10], "uv_size": [6, 1]},
+								"down": {"uv": [22, 13], "uv_size": [6, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "blade",
+					"parent": "short_sword",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 9, -1],
+							"size": [10, 17, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [10, 17]},
+								"east": {"uv": [14, 18], "uv_size": [1, 17]},
+								"south": {"uv": [11, 0], "uv_size": [10, 17]},
+								"west": {"uv": [16, 18], "uv_size": [1, 17]},
+								"up": {"uv": [18, 18], "uv_size": [10, 1]},
+								"down": {"uv": [18, 21], "uv_size": [10, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

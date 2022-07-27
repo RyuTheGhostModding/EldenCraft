@@ -1,7 +1,19 @@
 {
-  "minecraft:adventure/root": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "killed_something": "2022-07-25 18:51:40 -0500"
+      "in_water": "2022-07-26 18:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2022-07-26 18:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-07-26 18:11:04 -0500"
     },
     "done": true
   },
@@ -13,14 +25,109 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2022-07-26 18:47:54 -0500",
+      "minecraft:wither": "2022-07-26 18:11:39 -0500",
+      "minecraft:enderman": "2022-07-26 21:41:26 -0500",
       "minecraft:zombie": "2022-07-25 18:51:40 -0500"
     },
     "done": false
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2022-07-26 21:40:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-07-26 18:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-07-26 18:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-07-26 21:40:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2022-07-26 18:46:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2022-07-26 18:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2022-07-26 18:46:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-07-25 18:51:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-07-26 18:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-07-26 18:11:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2022-07-26 18:46:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2022-07-26 18:09:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-07-26 18:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2022-07-26 18:46:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2022-07-26 21:40:53 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2022-07-25 18:50:15 -0500",
-      "minecraft:beach": "2022-07-25 18:49:43 -0500"
+      "minecraft:beach": "2022-07-25 18:49:43 -0500",
+      "minecraft:cold_ocean": "2022-07-26 18:10:48 -0500",
+      "minecraft:forest": "2022-07-26 18:10:51 -0500"
     },
     "done": false
   },

@@ -1,6 +1,7 @@
 package me.ryutheghost.eldencraftmod.eldencraft.init;
 
 import me.ryutheghost.eldencraftmod.eldencraft.Eldencraft;
+import me.ryutheghost.eldencraftmod.eldencraft.melee.Daggers;
 import me.ryutheghost.eldencraftmod.eldencraft.melee.Swords;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -17,6 +18,9 @@ public class MeleeInit {
 
     public static final RegistryObject<Item> SHORT_SWORD = ITEMS.register("short_sword",
             () -> new Swords.ShortSword(Tiers.IRON, 6, 7.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
+    public static final RegistryObject<Item> DAGGER = ITEMS.register("dagger",
+            () -> new Daggers.Dagger(Tiers.IRON, 3, 45.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
 
     public static void register(IEventBus eventBus) {
